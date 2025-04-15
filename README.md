@@ -6,27 +6,27 @@ This project analyzes scanned or digital images of handwritten pages to infer ps
 
 ## 📌 Features
 
-- ✅ Detects written content using contour and morphological analysis
-- ✅ Computes and evaluates margins (Left, Right, Top, Bottom)
-- ✅ Detects line orientations: Straight, Sloped, Curved
-- ✅ Infers basic personality traits based on spatial layout
-- ✅ Visualizes bounding box around handwritten area
-- ✅ Works under varying lighting conditions using adaptive thresholding
+- ✅ Detects written content using contour and morphological analysis  
+- ✅ Computes and evaluates margins (Left, Right, Top, Bottom)  
+- ✅ Detects line orientations: Straight, Sloped, Curved  
+- ✅ Infers basic personality traits based on spatial layout  
+- ✅ Visualizes bounding box around handwritten area  
+- ✅ Works under varying lighting conditions using adaptive thresholding  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Python 3.x**
-- **OpenCV**
-- **NumPy**
-- **Matplotlib**
+- **Python 3.x**  
+- **OpenCV**  
+- **NumPy**  
+- **Matplotlib**  
 
 ---
 
 ## 🖼️ Input
 
-- A scanned or digital image of a handwritten page (preferably A4 size)
+- A scanned or digital image of a handwritten page (preferably A4 size)  
 - Format: `.jpg`, `.png`, etc.
 
 ---
@@ -34,17 +34,34 @@ This project analyzes scanned or digital images of handwritten pages to infer ps
 ## 📤 Output
 
 - A list of boolean values:
-- [left_margin_good, right_margin_good, top_margin_good, bottom_margin_good, is_line_straight, is_line_sloped, is_line_curved]
+  ```
+  [left_margin_good, right_margin_good, top_margin_good, bottom_margin_good,
+   is_line_straight, is_line_sloped, is_line_curved]
+  ```
+
 - A psychological/personality assessment generated based on the result.
+
+---
+
+## 📂 Directory Structure
+
+```
+.
+├── handwriting_analysis.py     # Main code file  
+├── a01-049u.png                # Sample image (replace with your own)  
+└── README.md                   # This file  
+```
+
+---
 
 ## 🧪 How It Works
 
-1. **Preprocessing**: Grayscale → Gaussian Blur → Adaptive Thresholding
-2. **Dilation**: Merge fragmented contours
-3. **Contour Detection**: Extract meaningful bounding boxes
-4. **Margin Analysis**: Measure spacing between text and page edges
-5. **Line Orientation Analysis**: Use HoughLinesP for angle detection
-6. **Personality Mapping**: Simple interpretation based on spatial traits
+1. **Preprocessing**: Grayscale → Gaussian Blur → Adaptive Thresholding  
+2. **Dilation**: Merge fragmented contours  
+3. **Contour Detection**: Extract meaningful bounding boxes  
+4. **Margin Analysis**: Measure spacing between text and page edges  
+5. **Line Orientation Analysis**: Use HoughLinesP for angle detection  
+6. **Personality Mapping**: Simple interpretation based on spatial traits  
 
 ---
 
@@ -53,7 +70,7 @@ This project analyzes scanned or digital images of handwritten pages to infer ps
 ```bash
 # Run the script
 python handwriting_analysis.py
-
+```
 
 - Replace `a01-049u.png` with the path to your own scanned handwritten image.
 
