@@ -1,4 +1,4 @@
-# 🧠 Handwriting Margin & Line Orientation Analyzer
+# 🧠 Layout-Based Handwriting Analysis for Behavior Prediction
 
 This project analyzes scanned or digital images of handwritten pages to infer psychological traits based on margin spacing and line orientation.
 
