@@ -38,44 +38,7 @@
   },
   {
     "image_path": "C:/Users/prath/OneDrive/Desktop/SEM VI/Labs/DSBDAL/DSABDA- mini project/s.jpg",
-    "timestamp": "2025-04-30 16:48:35",
-    "features": {
-      "left_margin_good": 1,
-      "right_margin_good": 0,
-      "top_margin_good": 0,
-      "bottom_margin_good": 1,
-      "is_line_straight": 0,
-      "is_line_sloped": 0,
-      "is_line_curved": 0,
-      "left_margin": 111,
-      "top_margin": 0,
-      "right_margin": 18,
-      "bottom_margin": 747,
-      "left_margin_ratio": 0.08951612903225807,
-      "right_margin_ratio": 0.014516129032258065,
-      "top_margin_ratio": 0.0,
-      "bottom_margin_ratio": 0.4258836944127708,
-      "mean_line_angle": 0,
-      "std_line_angle": 0,
-      "num_lines": 0,
-      "avg_word_spacing": 304.0,
-      "std_word_spacing": 436.56328292700016,
-      "spacing_density": 0.0032258064516129032,
-      "text_density": 0.09609421716749629,
-      "line_height_variation": 1.1562125116425965,
-      "horizontal_alignment": 0.4836006859600139
-    },
-    "traits": {
-      "family_attachment": false,
-      "risk_taking": 0,
-      "energy": 0,
-      "planning": 1,
-      "personality_type": "extrovert"
-    }
-  },
-  {
-    "image_path": "C:/Users/prath/OneDrive/Desktop/SEM VI/Labs/DSBDAL/DSABDA- mini project/s.jpg",
-    "timestamp": "2025-04-30 16:49:17",
+    "timestamp": "2025-04-30 16:55:42",
     "features": {
       "left_margin_good": 1,
       "right_margin_good": 0,
